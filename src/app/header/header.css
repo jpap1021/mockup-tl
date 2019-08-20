@@ -1,0 +1,34 @@
+.header-component{
+    display: flex;
+    background-color: white;
+    height: 70px;
+    margin-bottom: 30px;
+    width: 1000px;
+    color:#383838;
+}
+
+.header-component > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+    background-color: white;
+    color:#383838;
+    transition: 0.2s ease;
+}
+
+.header-component > div:hover{
+    color:white;
+    background-color: #0a3949;
+}
+
+.header-component .current-view{
+    color:white;
+    background-color: #0a3949;
+}
+
+.header-component i{
+    font-size: 36px;
+}

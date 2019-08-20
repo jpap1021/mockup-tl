@@ -1,0 +1,12 @@
+.app-component{
+  display: flex;
+  justify-content: center;
+}
+
+.app-component .app-content{
+  padding: 75px 75px;
+}
+
+body{
+  background-color: #e6e6e6;
+}

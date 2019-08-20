@@ -1,0 +1,19 @@
+.status-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.status-component .MuiFilledInput-root{
+    background-color: white;
+    margin-bottom: 24px;
+}
+
+.status-component .MuiButtonBase-root{
+    background-color: white;
+    width: 100%;
+}
+
+.status-component h3{
+    font-weight: 500;
+    font-size: 16px;
+}

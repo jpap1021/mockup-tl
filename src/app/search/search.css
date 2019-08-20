@@ -1,0 +1,28 @@
+.search-component{
+    width: 175px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    color: #686868;
+}
+
+.search-component .search-items{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+
+.search-component .search-items::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 340px;
+    right: 0;
+    background-color: #cbcbcb; 
+}
+

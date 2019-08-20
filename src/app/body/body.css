@@ -1,0 +1,24 @@
+.body-component{
+    position: relative;
+}
+
+.body-component .MuiFilledInput-root{
+    background-color: white;
+    width: 330px;
+}
+
+.body-component .body-search{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body-component .add-item{
+    position: absolute;
+    right: -36px;
+    bottom: -2px;
+    background: #f9880d;
+    color: white;
+    border-radius: 50%;
+    font-size: 65px;
+    cursor: pointer;
+}
